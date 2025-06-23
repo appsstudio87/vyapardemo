@@ -8,11 +8,11 @@ def get_data():
     currentdt = date.strftime("%Y-%m-%d %H:%M:%S")
     data = {
         "license_code": "Apps Studio Official",
-        "expiry_date": "2099-12-31 23:59:59",
+        "expiry_date": "2025-10-31 23:59:59",
         "plan": "Pos",
         "planId": 166,
         "status": 2,
-        "created_at": "2024-12-31 23:59:59",
+        "created_at": "2025-10-31 23:59:59",
         "current_date": currentdt,
         "groupTitle": None,
         "planType": 3,
