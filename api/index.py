@@ -8,7 +8,7 @@ def get_data():
     currentdt = date.strftime("%Y-%m-%d %H:%M:%S")
     data = {
         "license_code": "Apps Studio Official",
-        "expiry_date": "2025-07-24 23:59:59",
+        "expiry_date": "2025-07-26 23:59:59",
         "plan": "Pos",
         "planId": 166,
         "status": 2,
@@ -18,7 +18,7 @@ def get_data():
         "planType": 3,
         "perDayCost": 0,
         "perDayCostUsd": 0,
-        "pairExpiryDate": "2025-07-24 23:59:59"
+        "pairExpiryDate": "2025-07-26 23:59:59"
     }
     return jsonify(data)
 
